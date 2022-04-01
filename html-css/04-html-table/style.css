@@ -1,0 +1,14 @@
+table {
+  height: 100px;
+  width: 400px;
+}
+thead {
+  background-color: cadetblue;
+  color: white;
+}
+.total {
+  text-align: right;
+}
+td {
+  text-align: center;
+}
