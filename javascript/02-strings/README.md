@@ -11,7 +11,7 @@
 - **Escape characters** are also used representing invisible text, we call whitespace. One example of whitespace is representing a new line(\n) in our text.  
   `console.log("Hello \n\n\n kitty");`
 - **String concatenation**: two things that are separate and you squish them together into one long thing.  
-  'console.log("Hello" + " " + "World");'
+  `console.log("Hello" + " " + "World");`
 - **Length** property using dot notation tells us how many characters make up the string. `stringName.length`  
   `let myFavoriteAnimal = "dog";`  
   `console.log(myFavoriteAnimal.length);` --> 3
