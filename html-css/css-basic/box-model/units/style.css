@@ -1,0 +1,38 @@
+/* Colors
+#355C7D
+#6C5B7B
+#C06C84
+#355C7D
+#F67280
+#F8B195
+*/
+body {
+  color: #6c5b7b;
+  background: #6c5b7b;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+section {
+  border: 1px solid #355c7d;
+  background: #355c7d;
+  width: 500px;
+}
+article {
+  border: 1px solid #f67280;
+  background: #f8b195;
+}
+.article-1 {
+  width: 300px;
+  font-size: 2rem;
+  /* font-size: 12cm; */
+}
+.article-2 {
+  width: 600px;
+  font-size: 0.75rem;
+  /* font-size: 12mm; */
+}
+.article-3 {
+  /* font-size: 12Q; */
+  font-size: 1rem;
+  width: 40%;
+}

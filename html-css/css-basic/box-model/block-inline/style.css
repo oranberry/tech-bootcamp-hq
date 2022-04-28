@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 400px;
+  margin: 20px;
+}
+
+.inline-box {
+  color: #333;
+  background: #a7dbd8;
+  border: 1px solid #69d2e7;
+  margin: 20px 0;
+  padding: 20px;
+  width: 100px;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+.inline-text span {
+  /* border: black solid 5px; */
+  /* margin: 20px; margin aren't pushed away vertically, pushed on a horizontal basis
+  padding: 40px; all the way round in all direction */
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background: chartreuse;
+  vertical-align: middle;
+}
+#hidden {
+  display: none;
+}
+/* ⚠️
+visibility: hidden
+display and visibility are not the same!
+Visibility: hidden keep the elements space in flow 
+remove from the page but still occupy the original space
+*/

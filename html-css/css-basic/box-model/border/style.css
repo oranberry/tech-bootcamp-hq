@@ -1,0 +1,21 @@
+body {
+  font-size: 40px;
+}
+
+img {
+  height: 200px;
+  border-radius: 100px;
+}
+
+div {
+  background-color: #2dfce1;
+  /* border-width: 5px;
+  border-color: blueviolet;
+  border-style: dashed; */
+  border: black 15px solid;
+  width: 300px; /* only considering the content, not padding and margin */
+}
+#box1 {
+  box-sizing: border-box; /* calculate height & width including border */
+  border-radius: 10px;
+}

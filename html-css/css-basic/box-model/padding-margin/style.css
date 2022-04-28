@@ -1,0 +1,28 @@
+body {
+  font-size: 30px;
+}
+
+div {
+  width: 150px;
+  border: 1px solid black;
+}
+
+#purple {
+  background-color: #a086f0;
+  /* 두 개: top/bottom, left/right */
+  /* 세 개: top, left/right, bottom */
+  /* 네 개: top right bottom left  */
+  padding: 10px 30px 25px 15px;
+  /* padding-top: 10px */
+  margin-bottom: 20px;
+}
+
+#green {
+  background-color: #a8e854;
+  margin-top: 30px; /* margin collapse -> the large value 적용 */
+  /* margin: -10px auto 50px; */
+  /* 마이너스값도 가능 */
+  /* auto하면 left/right 간격 계산해서 center로 */
+}
+
+/* #2DFCE1; */
