@@ -1,0 +1,20 @@
+/* CSS selectors fight to override each other 
+A single HTML can have multiple Classes, ID, other combination of possible selectors
+In out CSS we can combine Selectors, Elements, Nested relationships 
+To pinpoint the elements we want to style 
+Element Selectors - 1 point
+Class selectors - 10 points
+ID selectors - 100 points
+inline Styles - 1000 points */
+
+h1 {
+  color: orange;
+}
+
+.title {
+  color: blue;
+}
+
+#title {
+  color: red;
+}
