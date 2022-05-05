@@ -1,0 +1,21 @@
+.page-title {
+	font-family: sans-serif;
+}
+
+.custom-list-group {
+	list-style-type: none;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	margin: 1rem;
+	padding: 0;
+}
+
+.custom-list-group-item {
+	border-bottom: 1px solid lightgrey;
+	padding: 1rem;
+	font-family: sans-serif;
+}
+
+.custom-list-group-item:last-child {
+	border-bottom: none ;
+}

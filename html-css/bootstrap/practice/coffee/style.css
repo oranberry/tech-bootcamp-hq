@@ -1,0 +1,33 @@
+a {
+	font-family: 'Bungee', sans-serif;
+}
+
+.page-title {
+	font-family: 'Bungee', sans-serif;
+	color: white;
+}
+.page-subtitle {
+	font-family: 'Readex Pro', sans-serif;
+	color: white;
+}
+
+.section-title {
+	font-family: 'Bungee', sans-serif;
+}
+#hero-section {
+	background-image: url("assets/herobg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#mission-section, #partners-section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.5);
+}

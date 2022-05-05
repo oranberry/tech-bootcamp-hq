@@ -1,0 +1,14 @@
+.btn-primary {
+	border: none;
+	background-color: rgb(143, 50, 205);
+	color: white;
+}
+.btn-primary:hover {
+	border: none;
+	background-color: rgb(104, 38, 148);
+	color: white;
+}
+
+.bi-star-fill {
+	color: gold;
+}
