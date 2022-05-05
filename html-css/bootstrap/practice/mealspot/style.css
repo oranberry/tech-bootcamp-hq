@@ -1,0 +1,4 @@
+/* Make 'Barlow' the default font. */
+body {
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+}
