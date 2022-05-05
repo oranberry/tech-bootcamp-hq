@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+  width: 100%;
+  min-height: 100vh;
+	overflow-x: hidden;
+  background-color: #efeeee;
+}
+header {
+  padding: 2em;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+.nav li {
+  display:inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+.nav a {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+}
+.hotel-image {
+  text-align: center;
+  background-image: url("assets/hotel.jpg");
+  min-height: 80vh; 
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.overlay h1 {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+	margin: auto;
+  padding-top: 150px;
+  font-size: 5em;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 1;
+}
+.overlay h3 {
+  font-family: 'Playfair Display', serif;
+	position: relative;
+	margin: auto;
+  font-size: 3em;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 1;
+}
+.paragraph {
+  margin: 3em 0;
+}
+.paragraph h1 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 60px;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+  text-align: center;
+}
+.paragraph h4 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 35px;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+  margin-left: 15%;
+
+}
+.water-image {
+  float: left;
+  width: 200px;
+  height: 250px;
+  margin: 5px 15px 15px 0px;
+  transition: .3s ease-in-out;
+}
+.water-image:hover {
+  transform: scale(1.5);
+}
+.paragraph p {
+  font-family: 'Roboto', sans-serif;
+  margin:0 auto;
+  width: 70%;
+  font-size: 1.05em;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+}
+footer {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  background-color: grey;
+}
+footer p {
+  font-size: 15px;
+  margin:0 auto;
+  width: 70%;
+  text-align: center;
+  line-height: 1.45em;
+}
