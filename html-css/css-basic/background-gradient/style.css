@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+#hero-container {
+  height: 500px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.25)),
+    url(heli.png);
+  background-position: center, center;
+  background-size: cover, cover;
+  text-shadow: 2px 2px rgba(200, 0, 0, 0.3);
+}
+
+h1 {
+  margin: 0;
+  padding-top: 40px;
+  font-family: 'Alfa Slab One';
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#content div {
+  display: inline-block;
+  width: 39%;
+  padding: 40px 5%;
+  vertical-align: middle;
+}
+
+#message {
+  font-size: 16px;
+}
+
+#countdown {
+  font-size: 40px;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-left: 25%;
+  padding: 14px 28px;
+  width: 50%;
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(200, 0, 0, 0.3);
+  box-shadow: 2px 2px rgba(200, 0, 0, 0.3);
+}
